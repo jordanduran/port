@@ -5,8 +5,9 @@ const Hero = () => {
         Hi, I&apos;m Jordan
       </h1>
       <p className='hero-bio max-w-prose mt-6'>
-        A New York City based front-end developer with a passion for building
-        excellent software with exquisite user interfaces.
+        A New York City based full-stack developer with a front-end focus that
+        has a passion for building excellent software with exquisite user
+        interfaces.
       </p>
       <p className='hero-bio max-w-prose mt-6'>
         With several years of experience in the tech industry, I have
