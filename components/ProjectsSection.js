@@ -23,7 +23,7 @@ const ProjectsSection = () => {
             Scenic Forests
           </h2>
           <p className='text-base text-gray-600 mb-3'>
-            (HTML5, CSS3, JavaScript, & Netlify)
+            (HTML5, CSS3, & Netlify)
           </p>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
             Built for people who want to take a nice vacation away from the
