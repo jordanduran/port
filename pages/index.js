@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import ProjectsSection from '../components/ProjectsSection';
+import BlogSection from '../components/BlogSection';
 
 const HomePage = () => {
   return (
@@ -9,6 +10,9 @@ const HomePage = () => {
       </div>
       <div className='project-section max-w-6xl py-8 mx-auto'>
         <ProjectsSection />
+      </div>
+      <div className='project-section max-w-6xl py-8 mx-auto'>
+        <BlogSection />
       </div>
     </div>
   );
