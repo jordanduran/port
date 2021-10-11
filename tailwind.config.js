@@ -1,12 +1,5 @@
 module.exports = {
-  purge: [
-    './pages/index.js',
-    '/components/Navbar.js',
-    '/components/Hero.js',
-    '/components/ProjectsSection.js',
-    '/components/Footer.js',
-    '/components/BlogSection.js',
-  ],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
