@@ -68,7 +68,7 @@ const Navbar = () => {
           <Disclosure.Panel className='sm:hidden'>
             <div className='pt-2 pb-3 space-y-1'>
               <Link
-                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
+                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium cursor-pointer'
                 activeClass='active'
                 to='hero-section'
                 spy={true}
@@ -79,7 +79,7 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
+                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium cursor-pointer'
                 activeClass='active'
                 to='projects-section'
                 spy={true}
@@ -90,7 +90,7 @@ const Navbar = () => {
                 Projects
               </Link>
               <Link
-                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
+                className='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium cursor-pointer'
                 activeClass='active'
                 to='blog-section'
                 spy={true}
