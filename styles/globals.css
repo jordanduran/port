@@ -25,3 +25,20 @@ h6 {
 .hero-bio {
   font-size: 1.15em;
 }
+
+/* Projects Component*/
+
+.project-list {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.project-list::marker {
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+}
+
+li {
+  list-style-position: inside;
+  text-indent: -1.7em;
+}
