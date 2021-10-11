@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id={'hero-section'}>
       <h1 className='hero-header text-blue-700 text-5xl font-bold'>
         Hi, I&apos;m Jordan
       </h1>

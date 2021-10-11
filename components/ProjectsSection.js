@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProjectsSection = () => {
   return (
-    <div className='project-section mt-10'>
+    <div className='project-section mt-10' id={'projects-section'}>
       <h1 className='projects-header text-4xl font-bold'>Projects</h1>
       <p className='text-base text-gray-700 mt-1 mb-6'>
         My set of skills include JavaScript, React, Next.js, CSS, and styling
