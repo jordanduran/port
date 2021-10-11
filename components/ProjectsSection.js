@@ -200,7 +200,7 @@ const ProjectsSection = () => {
             Google Keep Clone
           </h2>
           <p className='text-base text-gray-600 mb-3'>
-            (HTML5, CSS3, & JavaScript)
+            (HTML5, CSS3, JavaScript, & Netlify)
           </p>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
             Google Keep is a note-taking service developed by Google.
