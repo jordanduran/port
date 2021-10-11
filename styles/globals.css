@@ -26,7 +26,7 @@ h6 {
   font-size: 1.15em;
 }
 
-/* Projects Component*/
+/* ProjectsSection Component*/
 
 .project-list {
   list-style: disc;
@@ -41,4 +41,10 @@ h6 {
 li {
   list-style-position: inside;
   text-indent: -1.7em;
+}
+
+/* BlogSection Component*/
+
+.card-description {
+  height: 50%;
 }
