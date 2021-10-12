@@ -67,12 +67,15 @@ const BlogSection = () => {
         </div>
         <div className='mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none'>
           {/* Start of Blog Post 1 */}
+
           <div className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div className='flex-shrink-0'>
               <Image
                 className='h-48 w-full object-cover'
                 src={reactFetchingDataPic}
-                alt=''
+                target='_blank'
+                rel='noreferrer'
+                alt='React logo'
               />
             </div>
             <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
@@ -80,6 +83,8 @@ const BlogSection = () => {
                 <p className='text-sm font-medium text-blue-700'>
                   <a
                     href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    target='_blank'
+                    rel='noreferrer'
                     className='hover:underline'
                   >
                     Article
@@ -87,6 +92,8 @@ const BlogSection = () => {
                 </p>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='text-xl font-semibold text-gray-900'>
@@ -100,6 +107,8 @@ const BlogSection = () => {
                 </a>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
@@ -110,13 +119,16 @@ const BlogSection = () => {
             </div>
           </div>
           {/* End of Blog Post */}
+
           {/* Start of Blog Post 2 */}
           <div className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'>
             <div className='flex-shrink-0'>
               <Image
                 className='h-48 w-full object-cover'
                 src={reactFetchingDataPic}
-                alt=''
+                target='_blank'
+                rel='noreferrer'
+                alt='React logo'
               />
             </div>
             <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
@@ -124,6 +136,8 @@ const BlogSection = () => {
                 <p className='text-sm font-medium text-blue-700'>
                   <a
                     href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    target='_blank'
+                    rel='noreferrer'
                     className='hover:underline'
                   >
                     Article
@@ -131,6 +145,8 @@ const BlogSection = () => {
                 </p>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='text-xl font-semibold text-gray-900'>
@@ -144,6 +160,8 @@ const BlogSection = () => {
                 </a>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
@@ -161,7 +179,9 @@ const BlogSection = () => {
               <Image
                 className='h-48 w-full object-cover'
                 src={reactFetchingDataPic}
-                alt=''
+                target='_blank'
+                rel='noreferrer'
+                alt='React logo'
               />
             </div>
             <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
@@ -169,6 +189,8 @@ const BlogSection = () => {
                 <p className='text-sm font-medium text-blue-700'>
                   <a
                     href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    target='_blank'
+                    rel='noreferrer'
                     className='hover:underline'
                   >
                     Article
@@ -176,6 +198,8 @@ const BlogSection = () => {
                 </p>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='text-xl font-semibold text-gray-900'>
@@ -189,6 +213,8 @@ const BlogSection = () => {
                 </a>
                 <a
                   href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  target='_blank'
+                  rel='noreferrer'
                   className='block mt-2'
                 >
                   <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
