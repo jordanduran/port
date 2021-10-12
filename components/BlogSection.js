@@ -137,7 +137,7 @@ const BlogSection = () => {
               <div className='flex-1'>
                 <p className='text-sm font-medium text-blue-700'>
                   <a
-                    href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
                     target='_blank'
                     rel='noreferrer'
                     className='hover:underline'
@@ -146,7 +146,7 @@ const BlogSection = () => {
                   </a>
                 </p>
                 <a
-                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -155,15 +155,15 @@ const BlogSection = () => {
                     Git CLI Cheatsheet
                   </p>
                   <p className='card-description mt-3 text-base text-gray-500'>
-                    I was tired of looking up some of my most used git commands
-                    so I thought I&apos;d put them all in one place! This Git
-                    cheat sheet saves you time when you just can&apos;t remember
-                    what a command is or don&apos;t want to use git help in the
-                    command line.
+                    I was tired of looking up some of the most commonly used git
+                    commands so I thought I&apos;d put them all in one place!
+                    This Git cheat sheet saves you time when you just can&apos;t
+                    remember what a command is or don&apos;t want to use git
+                    help in the command line.
                   </p>
                 </a>
                 <a
-                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
