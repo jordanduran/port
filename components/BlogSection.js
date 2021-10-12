@@ -31,7 +31,7 @@ const BlogSection = () => {
               <div className='flex-1'>
                 <p className='text-sm font-medium text-blue-700'>
                   <a
-                    href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    href='https://jordanduran.hashnode.dev/how-to-fetch-data-in-react'
                     target='_blank'
                     rel='noreferrer'
                     className='hover:underline'
@@ -40,7 +40,7 @@ const BlogSection = () => {
                   </a>
                 </p>
                 <a
-                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  href='https://jordanduran.hashnode.dev/how-to-fetch-data-in-react'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -55,7 +55,7 @@ const BlogSection = () => {
                   </p>
                 </a>
                 <a
-                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  href='https://jordanduran.hashnode.dev/how-to-fetch-data-in-react'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -84,7 +84,7 @@ const BlogSection = () => {
               <div className='flex-1'>
                 <p className='text-sm font-medium text-blue-700'>
                   <a
-                    href='https://hashnode.com/post/the-most-important-array-methods-in-javascript-explained-ckuofrpoj11fdebs1c9wm6iur'
+                    href='https://jordanduran.hashnode.dev/the-most-important-array-methods-in-javascript-explained'
                     target='_blank'
                     rel='noreferrer'
                     className='hover:underline'
@@ -93,7 +93,7 @@ const BlogSection = () => {
                   </a>
                 </p>
                 <a
-                  href='https://hashnode.com/post/the-most-important-array-methods-in-javascript-explained-ckuofrpoj11fdebs1c9wm6iur'
+                  href='https://jordanduran.hashnode.dev/the-most-important-array-methods-in-javascript-explained'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -108,7 +108,7 @@ const BlogSection = () => {
                   </p>
                 </a>
                 <a
-                  href='https://hashnode.com/post/the-most-important-array-methods-in-javascript-explained-ckuofrpoj11fdebs1c9wm6iur'
+                  href='https://jordanduran.hashnode.dev/the-most-important-array-methods-in-javascript-explained'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -137,7 +137,7 @@ const BlogSection = () => {
               <div className='flex-1'>
                 <p className='text-sm font-medium text-blue-700'>
                   <a
-                    href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
+                    href='https://jordanduran.hashnode.dev/git-cli-cheatsheet'
                     target='_blank'
                     rel='noreferrer'
                     className='hover:underline'
@@ -146,7 +146,7 @@ const BlogSection = () => {
                   </a>
                 </p>
                 <a
-                  href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
+                  href='https://jordanduran.hashnode.dev/git-cli-cheatsheet'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
@@ -163,7 +163,7 @@ const BlogSection = () => {
                   </p>
                 </a>
                 <a
-                  href='https://hashnode.com/post/git-cli-cheatsheet-ckuom5a6l0uzdrvs1dx9l17cu'
+                  href='https://jordanduran.hashnode.dev/git-cli-cheatsheet'
                   target='_blank'
                   rel='noreferrer'
                   className='block mt-2'
