@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import reactFetchingDataPic from '../assets/reactFetchingDataPic.jpeg';
-import javascriptMinimalism from '../assets/javascript-minimalism.jpg';
+import reactPicOne from '../assets/reactPicOne.jpeg';
+import jsPicOne from '../assets/jsPicOne.jpg';
+import gitPicOne from '../assets/gitPicOne.jpeg';
 
 const BlogSection = () => {
   return (
@@ -20,7 +21,7 @@ const BlogSection = () => {
             <div className='flex-shrink-0'>
               <Image
                 className='h-48 w-full object-cover'
-                src={reactFetchingDataPic}
+                src={reactPicOne}
                 target='_blank'
                 rel='noreferrer'
                 alt='React logo'
@@ -73,7 +74,7 @@ const BlogSection = () => {
             <div className='flex-shrink-0'>
               <Image
                 className='h-48 w-full object-cover'
-                src={javascriptMinimalism}
+                src={jsPicOne}
                 target='_blank'
                 rel='noreferrer'
                 alt='React logo'
@@ -126,7 +127,7 @@ const BlogSection = () => {
             <div className='flex-shrink-0'>
               <Image
                 className='h-48 w-full object-cover'
-                src={reactFetchingDataPic}
+                src={gitPicOne}
                 target='_blank'
                 rel='noreferrer'
                 alt='React logo'
@@ -151,12 +152,14 @@ const BlogSection = () => {
                   className='block mt-2'
                 >
                   <p className='text-xl font-semibold text-gray-900'>
-                    How to Fetch Data in React
+                    Git CLI Cheatsheet
                   </p>
                   <p className='card-description mt-3 text-base text-gray-500'>
-                    There are many ways to fetch data from an external API in
-                    React. But which one should you be reaching for to create
-                    your applications in 2021?
+                    I was tired of looking up some of my most used git commands
+                    so I thought I&apos;d put them all in one place! This Git
+                    cheat sheet saves you time when you just can&apos;t remember
+                    what a command is or don&apos;t want to use git help in the
+                    command line.
                   </p>
                 </a>
                 <a
