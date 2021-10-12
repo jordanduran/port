@@ -1,21 +1,20 @@
+import Image from 'next/image';
+import reactFetchingDataPic from '../assets/reactFetchingDataPic.jpeg';
+
 const posts = [
   {
-    title: 'Boost your conversion rate',
-    href: 'https://hashnode.com/@jordanduran',
-    category: { name: 'Article', href: 'https://hashnode.com/@jordanduran' },
+    title: 'How to Fetch Data in React',
+    href: 'https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35',
+    category: {
+      name: 'Article',
+      href: 'https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35',
+    },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
     date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-    readingTime: '6 min',
-    author: {
-      name: 'Roel Aufderehar',
-      href: 'https://hashnode.com/@jordanduran',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
+    datetime: '2021-10-12',
+    imageUrl: reactFetchingDataPic,
+    readingTime: '4 min',
   },
   {
     title: 'How to use search engine optimization to drive sales',
@@ -67,42 +66,139 @@ const BlogSection = () => {
           </h2>
         </div>
         <div className='mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none'>
-          {posts.map((post) => (
-            <div
-              key={post.title}
-              className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'
-            >
-              <div className='flex-shrink-0'>
-                <img
-                  className='h-48 w-full object-cover'
-                  src={post.imageUrl}
-                  alt=''
-                />
-              </div>
-              <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
-                <div className='flex-1'>
-                  <p className='text-sm font-medium text-blue-700'>
-                    <a href={post.category.href} className='hover:underline'>
-                      {post.category.name}
-                    </a>
+          {/* Start of Blog Post 1 */}
+          <div className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'>
+            <div className='flex-shrink-0'>
+              <Image
+                className='h-48 w-full object-cover'
+                src={reactFetchingDataPic}
+                alt=''
+              />
+            </div>
+            <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
+              <div className='flex-1'>
+                <p className='text-sm font-medium text-blue-700'>
+                  <a
+                    href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    className='hover:underline'
+                  >
+                    Article
+                  </a>
+                </p>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='text-xl font-semibold text-gray-900'>
+                    How to Fetch Data in React
                   </p>
-                  <a href={post.href} className='block mt-2'>
-                    <p className='text-xl font-semibold text-gray-900'>
-                      {post.title}
-                    </p>
-                    <p className='card-description mt-3 text-base text-gray-500'>
-                      {post.description}
-                    </p>
-                  </a>
-                  <a href={post.href} className='block mt-2'>
-                    <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
-                      Read more...
-                    </p>
-                  </a>
-                </div>
+                  <p className='card-description mt-3 text-base text-gray-500'>
+                    There are many ways to fetch data from an external API in
+                    React. But which one should you be reaching for to create
+                    your applications in 2021?
+                  </p>
+                </a>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
+                    Read more...
+                  </p>
+                </a>
               </div>
             </div>
-          ))}
+          </div>
+          {/* End of Blog Post */}
+          {/* Start of Blog Post 2 */}
+          <div className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'>
+            <div className='flex-shrink-0'>
+              <Image
+                className='h-48 w-full object-cover'
+                src={reactFetchingDataPic}
+                alt=''
+              />
+            </div>
+            <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
+              <div className='flex-1'>
+                <p className='text-sm font-medium text-blue-700'>
+                  <a
+                    href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    className='hover:underline'
+                  >
+                    Article
+                  </a>
+                </p>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='text-xl font-semibold text-gray-900'>
+                    How to Fetch Data in React
+                  </p>
+                  <p className='card-description mt-3 text-base text-gray-500'>
+                    There are many ways to fetch data from an external API in
+                    React. But which one should you be reaching for to create
+                    your applications in 2021?
+                  </p>
+                </a>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
+                    Read more...
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of Blog Post */}
+
+          {/* Start of Blog Post 3 */}
+          <div className='blog-card flex flex-col rounded-lg shadow-lg overflow-hidden'>
+            <div className='flex-shrink-0'>
+              <Image
+                className='h-48 w-full object-cover'
+                src={reactFetchingDataPic}
+                alt=''
+              />
+            </div>
+            <div className='card-content flex-1 bg-white p-6 flex flex-col justify-between'>
+              <div className='flex-1'>
+                <p className='text-sm font-medium text-blue-700'>
+                  <a
+                    href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                    className='hover:underline'
+                  >
+                    Article
+                  </a>
+                </p>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='text-xl font-semibold text-gray-900'>
+                    How to Fetch Data in React
+                  </p>
+                  <p className='card-description mt-3 text-base text-gray-500'>
+                    There are many ways to fetch data from an external API in
+                    React. But which one should you be reaching for to create
+                    your applications in 2021?
+                  </p>
+                </a>
+                <a
+                  href='https://hashnode.com/post/how-to-fetch-data-in-react-ckunkpilo0tjsebs19acl2g35'
+                  className='block mt-2'
+                >
+                  <p className='card-description mt-3 text-base text-blue-700 hover:text-blue-900'>
+                    Read more...
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* End of Blog Post */}
         </div>
       </div>
     </div>
