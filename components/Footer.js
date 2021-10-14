@@ -44,7 +44,7 @@ const Footer = () => {
               key={item.name}
               href={item.href}
               target={item.target}
-              className='footer-social-links text-white hover:text-yellow-200 fa-lg'
+              className='footer-social-links text-white hover:text-gray-300 fa-lg'
             >
               <span className='sr-only'>{item.name}</span>
               <item.icon className='h-6 w-6' aria-hidden='true' />
