@@ -38,7 +38,7 @@ const ProjectsSection = () => {
             charts that display crypto data with <strong>Chart.js</strong>
           </li>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
-            Redux Toolkit for flexible state management.
+            <strong>Redux Toolkit</strong> for flexible state management.
           </li>
           <div className='button-controls flex justify-evenly lg:w-10/12'>
             <button
