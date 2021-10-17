@@ -19,6 +19,66 @@ const ProjectsSection = () => {
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
           </span>
+          <h2 className='project-title text-2xl font-bold mb-2'>Cryptobase</h2>
+          <p className='text-base text-gray-600 mb-3'>
+            (React, Redux Toolkit, Chart.js, RapidAPI, CSS3, Ant Design, &
+            Netlify)
+          </p>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
+            Explore the world of Cryptocurrency in this application, learn all
+            there is about different cryptocurrencies.
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            In depth data of all cryptocurrencies, crypto markets, exchanges,
+            and news.
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Beautiful and responsive multi page layout created with{' '}
+            <strong>Ant Design</strong> and <strong>CSS3. </strong>Intuitive
+            charts that display crypto data with <strong>Chart.js</strong>
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
+            Redux Toolkit for flexible state management.
+          </li>
+          <div className='button-controls flex justify-evenly lg:w-10/12'>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
+            >
+              <a
+                href='https://github.com/jordanduran/cryptobase'
+                rel='noreferrer'
+                target='_blank'
+              >
+                GitHub{' '}
+                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
+              </a>
+            </button>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
+            >
+              <a
+                href='https://thecryptobase.netlify.app/'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Live View{' '}
+                <FontAwesomeIcon
+                  className='fa-xl ml-2'
+                  icon={faExternalLinkAlt}
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+        {/* End of Project */}
+
+        {/* Start of Project 2 */}
+        <div className='project-one mb-10'>
+          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
+            Web Application
+          </span>
           <h2 className='project-title text-2xl font-bold mb-2'>
             Scenic Forests
           </h2>
@@ -74,7 +134,7 @@ const ProjectsSection = () => {
         </div>
         {/* End of Project */}
 
-        {/* Start of Project 2 */}
+        {/* Start of Project 3 */}
         <div className='project-two mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -133,7 +193,7 @@ const ProjectsSection = () => {
 
         {/* End of Project */}
 
-        {/* Start of Project 3 */}
+        {/* Start of Project 4 */}
         <div className='project-three mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -177,64 +237,6 @@ const ProjectsSection = () => {
             >
               <a
                 href='https://thequotegenerator.netlify.app/'
-                rel='noreferrer'
-                target='_blank'
-              >
-                Live View{' '}
-                <FontAwesomeIcon
-                  className='fa-xl ml-2'
-                  icon={faExternalLinkAlt}
-                />
-              </a>
-            </button>
-          </div>
-        </div>
-        {/* End of Project */}
-
-        {/* Start of Project 4 */}
-        <div className='project-three mb-10'>
-          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
-            Web Application
-          </span>
-          <h2 className='project-title text-2xl font-bold mb-2'>
-            Google Keep Clone
-          </h2>
-          <p className='text-base text-gray-600 mb-3'>
-            (HTML5, CSS3, JavaScript, & Netlify)
-          </p>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
-            Google Keep is a note-taking service developed by Google.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            This is a cloned version using <strong>vanilla JavaScript.</strong>
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            The user is able to create, edit, and delete notes. The user also
-            has the ability to change the notes background color.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
-            All notes have the capability to be saved using localStorage.
-          </li>
-          <div className='button-controls flex justify-evenly lg:w-10/12'>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
-            >
-              <a
-                href='https://github.com/jordanduran/Google-Keep-Clone'
-                rel='noreferrer'
-                target='_blank'
-              >
-                GitHub{' '}
-                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
-              </a>
-            </button>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
-            >
-              <a
-                href='https://googlekeepclone.netlify.app/'
                 rel='noreferrer'
                 target='_blank'
               >
