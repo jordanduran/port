@@ -21,8 +21,8 @@ const ProjectsSection = () => {
           </span>
           <h2 className='project-title text-2xl font-bold mb-2'>Estately</h2>
           <p className='text-base text-gray-600 mb-3'>
-            (React, CSS3, LeafletJS, Swiper, Toastify, Google Geocoding API, &
-            Vercel)
+            (React, CSS3, LeafletJS, Swiper, Toastify, Google Geocoding API,
+            Firebase, & Vercel)
           </p>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
             Find new beautiful homes to buy or rent with Estately, a full stack
