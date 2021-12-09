@@ -19,6 +19,67 @@ const ProjectsSection = () => {
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
           </span>
+          <h2 className='project-title text-2xl font-bold mb-2'>Estately</h2>
+          <p className='text-base text-gray-600 mb-3'>
+            (React, CSS3, LeafletJS, Swiper, Toastify, Google Geocoding API, &
+            Vercel)
+          </p>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
+            Find new beautiful homes to buy or rent with Estately, a full stack
+            app marketplace for homes.
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Beautiful and responsive multi page layout created with{' '}
+            <strong>CSS3. </strong>Features a map with geolocation provided by{' '}
+            <strong>LeafletJS</strong>
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Amazing image sliders using <strong>Swiper</strong> that are
+            implemented in multiple pages.
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
+            <strong>React Router v6</strong> for that wonderful single page
+            application feel we all know and love.
+          </li>
+          <div className='button-controls flex justify-evenly lg:w-10/12'>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
+            >
+              <a
+                href='https://github.com/jordanduran/Estately'
+                rel='noreferrer'
+                target='_blank'
+              >
+                GitHub{' '}
+                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
+              </a>
+            </button>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
+            >
+              <a
+                href='https://estately.vercel.app/'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Live View{' '}
+                <FontAwesomeIcon
+                  className='fa-xl ml-2'
+                  icon={faExternalLinkAlt}
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+        {/* End of Project */}
+
+        {/* Start of Project 2 */}
+        <div className='project-one mb-10'>
+          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
+            Web Application
+          </span>
           <h2 className='project-title text-2xl font-bold mb-2'>Cryptobase</h2>
           <p className='text-base text-gray-600 mb-3'>
             (React, Redux Toolkit, Chart.js, RapidAPI, CSS3, Ant Design, &
@@ -74,7 +135,7 @@ const ProjectsSection = () => {
         </div>
         {/* End of Project */}
 
-        {/* Start of Project 2 */}
+        {/* Start of Project 3 */}
         <div className='project-one mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -134,7 +195,7 @@ const ProjectsSection = () => {
         </div>
         {/* End of Project */}
 
-        {/* Start of Project 3 */}
+        {/* Start of Project 4 */}
         <div className='project-two mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -178,65 +239,6 @@ const ProjectsSection = () => {
             >
               <a
                 href='https://jspigdicegame.netlify.com/'
-                rel='noreferrer'
-                target='_blank'
-              >
-                Live View{' '}
-                <FontAwesomeIcon
-                  className='fa-xl ml-2'
-                  icon={faExternalLinkAlt}
-                />
-              </a>
-            </button>
-          </div>
-        </div>
-
-        {/* End of Project */}
-
-        {/* Start of Project 4 */}
-        <div className='project-three mb-10'>
-          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
-            Web Application
-          </span>
-          <h2 className='project-title text-2xl font-bold mb-2'>
-            Quote Generator
-          </h2>
-          <p className='text-base text-gray-600 mb-3'>
-            (HTML5, CSS3, JavaScript, & Netlify)
-          </p>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
-            An application where users are greeted with a quote upon site load.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            User has the ability to tweet the current quote, or request a new
-            one.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            Small hints of <strong>CSS animations.</strong>
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
-            Fully responsive with a great design.
-          </li>
-          <div className='button-controls flex justify-evenly lg:w-10/12'>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
-            >
-              <a
-                href='https://github.com/jordanduran/Quote-Generator'
-                rel='noreferrer'
-                target='_blank'
-              >
-                GitHub{' '}
-                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
-              </a>
-            </button>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
-            >
-              <a
-                href='https://thequotegenerator.netlify.app/'
                 rel='noreferrer'
                 target='_blank'
               >
