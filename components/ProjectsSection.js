@@ -38,8 +38,8 @@ const ProjectsSection = () => {
             implemented in multiple pages.
           </li>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
-            <strong>React Router v6</strong> for that wonderful single page
-            application feel we all know and love.
+            <strong>Firebase</strong> for authentication and to store
+            application data.
           </li>
           <div className='button-controls flex justify-evenly lg:w-10/12'>
             <button
