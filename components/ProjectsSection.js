@@ -31,7 +31,7 @@ const ProjectsSection = () => {
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
             Beautiful and responsive multi page layout created with{' '}
             <strong>CSS3. </strong>Features a map with geolocation provided by{' '}
-            <strong>LeafletJS</strong>
+            <strong>LeafletJS</strong>.
           </li>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
             Amazing image sliders using <strong>Swiper</strong> that are
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
           </li>
           <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
             <strong>Firebase</strong> for authentication and to store
-            application data.
+            application data such as listings, images, and users.
           </li>
           <div className='button-controls flex justify-evenly lg:w-10/12'>
             <button
