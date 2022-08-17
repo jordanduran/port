@@ -19,6 +19,68 @@ const ProjectsSection = () => {
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
           </span>
+          <h2 className='project-title text-2xl font-bold mb-2'>Boards</h2>
+          <p className='text-base text-gray-600 mb-3'>
+            (React, CSS3, TailwindUI, Easy Peasy, Stripe, Firebase, & Vercel)
+          </p>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
+            Whether you are shopping for a new skateboard complete, or need
+            individual parts to upgrade your current setup, boards Skateboards
+            has you covered.
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Modern and fully responive multi page e-commerce layout with{' '}
+            <strong>TailwindUI.</strong>
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Quick and easy state management with <strong>Easy Peasy</strong>
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Authentication, real time data, and storage provided by{' '}
+            <strong>Firebase</strong>
+          </li>
+          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
+            Top tier payment processing provided by <strong>Stripe</strong>.
+          </li>
+          <div className='button-controls flex justify-evenly lg:w-10/12'>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
+            >
+              <a
+                href='https://github.com/jordanduran/boards'
+                rel='noreferrer'
+                target='_blank'
+              >
+                GitHub{' '}
+                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
+              </a>
+            </button>
+            <button
+              type='button'
+              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
+            >
+              <a
+                href='https://shopboards.vercel.app/'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Live View{' '}
+                <FontAwesomeIcon
+                  className='fa-xl ml-2'
+                  icon={faExternalLinkAlt}
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+        {/* End of Project */}
+
+        {/* Start of Project 2 */}
+        <div className='project-one mb-10'>
+          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
+            Web Application
+          </span>
           <h2 className='project-title text-2xl font-bold mb-2'>Estately</h2>
           <p className='text-base text-gray-600 mb-3'>
             (React, CSS3, LeafletJS, Swiper, Toastify, Google Geocoding API,
@@ -75,7 +137,7 @@ const ProjectsSection = () => {
         </div>
         {/* End of Project */}
 
-        {/* Start of Project 2 */}
+        {/* Start of Project 3 */}
         <div className='project-one mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -135,7 +197,7 @@ const ProjectsSection = () => {
         </div>
         {/* End of Project */}
 
-        {/* Start of Project 3 */}
+        {/* Start of Project 4 */}
         <div className='project-one mb-10'>
           <span className='project-category text-blue-700 text-sm font-bold uppercase'>
             Web Application
@@ -181,64 +243,6 @@ const ProjectsSection = () => {
             >
               <a
                 href='https://scenicforests.netlify.app/'
-                rel='noreferrer'
-                target='_blank'
-              >
-                Live View{' '}
-                <FontAwesomeIcon
-                  className='fa-xl ml-2'
-                  icon={faExternalLinkAlt}
-                />
-              </a>
-            </button>
-          </div>
-        </div>
-        {/* End of Project */}
-
-        {/* Start of Project 4 */}
-        <div className='project-two mb-10'>
-          <span className='project-category text-blue-700 text-sm font-bold uppercase'>
-            Web Application
-          </span>
-          <h2 className='project-title text-2xl font-bold mb-2'>Pig</h2>
-          <p className='text-base text-gray-600 mb-3'>
-            (HTML5, CSS3, JavaScript, & Netlify)
-          </p>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose w-100 max-w-lg'>
-            Two player game with a pleasing user interface.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            Played with dice, each player can roll the dice as many times as
-            they want.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg'>
-            If a <strong>one</strong> is rolled, the score is not added to their
-            total and the turn is now the opposing players.
-          </li>
-          <li className='project-list list-inside col-span-1 text-gray-800 leading-loose max-w-lg mb-3'>
-            If they hold, the score is added to their total.{' '}
-            <strong>First to 100</strong>, wins!
-          </li>
-          <div className='button-controls flex justify-evenly lg:w-10/12'>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-gray-700 hover:bg-gray-800 focus:outline-none'
-            >
-              <a
-                href='https://github.com/jordanduran/Pig-Game'
-                rel='noreferrer'
-                target='_blank'
-              >
-                GitHub{' '}
-                <FontAwesomeIcon className='fa-xl ml-2' icon={faGithub} />
-              </a>
-            </button>
-            <button
-              type='button'
-              className='inline-flex items-center px-5 py-1 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-blue-700 hover:bg-blue-800 focus:outline-none'
-            >
-              <a
-                href='https://jspigdicegame.netlify.com/'
                 rel='noreferrer'
                 target='_blank'
               >
